@@ -1,3 +1,21 @@
-body{
-  background-color: bisque;
+
+html, body {
+  height: 100%;
+}
+
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
+  transition: 0.4s;
+  width:300px;
+  background: #fff;
+  margin:20px;
+  text-align: center;
+}
+
+#footer {
+  flex-shrink: 0;
+  text-align: center;
+  color:red;
+  background-color: white;
+  width: 100%;
 }
